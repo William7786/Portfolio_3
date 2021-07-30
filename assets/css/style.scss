@@ -1,3 +1,5 @@
+
+
 @mixin flex-row($align, $justify) {
     display: flex;
     flex-direction: row;
@@ -20,14 +22,11 @@
   
   $vw-width: 50vw;
   
-  //$image-custom-width: 1600;
-  //$image-custom-height: 650;
+  
   $image-custom-width: 3200;
   $image-custom-height: 1300;
   
-  /***
-  ************* end utilities ****************
-  ***/
+
   
   body {
     @include flex-column(center, center);
